@@ -43,7 +43,7 @@ namespace task
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     
-                    matrix[i, j] = arr1[counter];
+                    matrix[j, i] = arr1[counter];
                     counter++;
 
                     //Console.Write("{0}\t", matrix[i, j]);
@@ -58,7 +58,7 @@ namespace task
 
                     
 
-                    Console.Write("{0}\t", matrix[j, i]);
+                    Console.Write("{0}\t", matrix[i, j]);
                 }
 
                 Console.WriteLine();
